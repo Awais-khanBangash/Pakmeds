@@ -1,71 +1,60 @@
-# 💊 PakMeds – Online Pharmacy Management System
+# PakMeds 💊  
+**Online Pharmacy Management System**
 
-**PakMeds** is a full-featured **online pharmacy platform** developed as a Final Year Project (FYP) for the Bachelor of Science in Computer Science at **Abasyn University, Peshawar**.
+## 📌 Overview
+PakMeds is a **Web-based Online E-Pharmacy Application** that allows customers to order medicines and healthcare products online.  
+The system was developed as a Final Year Project (FYP) to address the lack of unified, user-friendly e-pharmacy platforms in Pakistan.  
 
-This platform provides users with an easy, safe, and efficient way to order medicines and healthcare products online. With features like search by illness/formula, chatbot support, admin panel, and order tracking, PakMeds aims to solve the common issues faced by users in traditional pharmacies, especially during health crises like **COVID-19**.
-
----
-
-## 🌐 Live Demo
-
-> *(Add a link here if hosted online, or leave this section out if not hosted)*
-
----
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Login Credentials](#login-credentials)
-- [Test Cases](#test-cases)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
-- [Authors](#authors)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+PakMeds enables users to:  
+- Save time and money  
+- Maintain privacy while purchasing medicines  
+- Order specific medicines not available in local shops  
+- Compare products and prices online  
+- Get home delivery with refund policy options  
 
 ---
 
 ## 🚀 Features
+- **User Side**
+  - Registration & Login  
+  - Search medicines (By Name, Formula, Illness)  
+  - Shopping cart and order placement  
+  - Apply coupon codes for discounts  
+  - Auto chat for unavailable products  
 
-- 🛒 Order medicines and healthcare products online
-- 🔍 Search products by **name**, **formula**, or **illness**
-- 🤖 Auto Chat system for requesting unavailable medicines
-- 👤 User registration & login (Admin / Customer roles)
-- 📦 Track orders and manage cart
-- 🎟️ Apply discount codes via coupons
-- 🧾 Admin dashboard to manage:
-  - Categories and sub-categories
-  - Products and inventory
-  - Orders, users, reviews
-  - Banners and coupons
-- 🔒 Secure login, session management, and form validation
-- 📅 Order history and refund policy
-- 📱 24/7 service availability
+- **Admin Side**
+  - Dashboard to manage orders, products, and users  
+  - Category and Sub-category management  
+  - Coupon management  
+  - Product reviews and status updates  
 
 ---
 
-## 🧑‍💻 Tech Stack
-
-| Layer        | Technologies                            |
-|--------------|------------------------------------------|
-| Frontend     | HTML5, CSS3, Bootstrap, JavaScript, jQuery |
-| Backend      | PHP                                      |
-| Database     | MySQL                                    |
-| Tools Used   | XAMPP, Notepad++, phpMyAdmin             |
+## 🛠️ Technologies Used
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap4  
+- **Backend:** PHP (server-side scripting)  
+- **Database:** MySQL (Relational Database Management System)  
+- **Server:** XAMPP (Apache + MySQL)  
+- **Tools:** Notepad++, phpMyAdmin  
 
 ---
 
-## 🛠️ Installation
+## 📂 Code Provenance (Credits & Acknowledgements)
+This project was built using a combination of **original code** written by the authors and **third-party libraries/tools**:  
 
-### Requirements:
-- XAMPP or any PHP local server
-- Web browser
-- Git (optional)
+- **Bootstrap 4** (CSS framework) – [https://getbootstrap.com/](https://getbootstrap.com/)  
+- **jQuery** (JavaScript library) – [https://jquery.com/](https://jquery.com/)  
+- **XAMPP** (Apache + MySQL server stack) – [https://www.apachefriends.org/](https://www.apachefriends.org/)  
+- **phpMyAdmin** (Database management tool) – [https://www.phpmyadmin.net/](https://www.phpmyadmin.net/)  
+- Any external code snippets reused from online sources (e.g. StackOverflow, tutorials) are cited in project comments.  
 
-### Steps:
-1. **Clone the repository**
+No proprietary code has been used. All third-party libraries are **open source** and included under their respective licenses.  
+
+---
+
+## ⚙️ Installation & Setup Instructions
+Follow these steps to build and run the project locally:
+
+1. **Clone Repository**
    ```bash
-   git clone https://github.com/Awais-khanBangash/Pakmeds.git
+   git clone https://github.com/your-username/pakmeds.git
